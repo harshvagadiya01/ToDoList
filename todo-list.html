@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./todo-list.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <p style="display: inline;">TaskManager</p>
+      <p style="font-size: 15px; padding-left: 50px; color: rgb(214, 217, 219);">Stay Organized, Stay Ahead</p>
+    </div>
+    
+
+    <div class="js-tasks todo-grid">
+      <input type="text" placeholder="Todo name" class="js-name-input name-input">
+      <input type="date" name="dd-mm-yyyy" class="js-date-input dueDate-input">
+      <select class="js-priority-input priority-input">
+        <option value="Low" >✅ Low</option>
+        <option value="Medium">⚡ Medium</option>
+        <option value="High">🔥 High</option>
+      </select>
+      <button class="add-button js-add-button">Add</button>
+    </div>
+  </div>
+
+  <script src="./todo-list.js"></script>
+</body>
+</html>

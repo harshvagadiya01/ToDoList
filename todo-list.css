@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  background-color: #222831;
+  color: #EEEEEE;
+  padding: 10px 186px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button, .add-button {
+  color: white;
+  background: darkred;
+  border: none;
+  font-size: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.todo-grid {
+  display: grid;
+  width: 650px;
+  grid-template-columns: 180px 120px 100px 100px;
+  gap: 10px;
+  font-size: 15px;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name-input, .dueDate-input, .priority-input {
+  padding: 6px;
+  padding-top: 10px;
+}
+
+.add-button {
+  background-color: green;
+}
+
+.high {
+  color: red;
+  font-weight: bold;
+}
+
+.medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.low {
+  color: green;
+  font-weight: bold;
+}
